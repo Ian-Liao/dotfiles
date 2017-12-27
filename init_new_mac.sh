@@ -9,4 +9,4 @@ brew install httpie
 brew isntall git-flow
 
 brew install thefuck
-
+brew install vim
