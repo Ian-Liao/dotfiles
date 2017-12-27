@@ -8,3 +8,5 @@ brew install wget
 brew install httpie
 brew isntall git-flow
 
+brew install thefuck
+
