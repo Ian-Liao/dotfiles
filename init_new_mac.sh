@@ -10,3 +10,6 @@ brew isntall git-flow
 
 brew install thefuck
 brew install vim
+
+brew install mysql
+
