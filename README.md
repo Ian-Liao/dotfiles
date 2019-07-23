@@ -15,3 +15,5 @@ zsh configuration
 vim configuration
 
 git configuration
+
+macOS configuration
