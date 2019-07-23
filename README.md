@@ -1,2 +1,17 @@
-# InitMac4Dev
-Initiate a new mac for python developing usage
+# dotfiles
+
+Requirement
+-----------
+
+Choose zsh as your default shell:
+
+	chsh -s $(which zsh)
+
+What it contains?
+----------------
+
+zsh configuration
+
+vim configuration
+
+git configuration
