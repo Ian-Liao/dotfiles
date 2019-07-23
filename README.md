@@ -17,3 +17,5 @@ vim configuration
 git configuration
 
 macOS configuration
+
+Homebrew formulae installation
