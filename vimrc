@@ -47,6 +47,8 @@ let mapleader = ","
 
 " Fast saving
 nmap <leader>w :w!<cr>
+" Fast quiting
+nmap <leader>q :q!<cr>
 
 " Smart way to move between windows
 map <C-j> <C-W>j
@@ -54,6 +56,11 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
+nnoremap <leader>v :NERDTreeFind<cr>
+nnoremap <leader>g :NERDTreeToggle<cr>
+let NERDTreeShowHidden=1
+
+let g:ctrlp_map = '<c-p>'
 
 " Specify a directory for plugins
 " - For Neovim: ~/.local/share/nvim/plugged
@@ -66,5 +73,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'scrooloose/nerdtree'
+Plug 'ctrlpvim/ctrlp.vim'
 " Initialize plugin system
 call plug#end()
+
+" tell vim to look for the ctags index file in the source directory
+set tags=tags

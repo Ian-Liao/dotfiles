@@ -10,7 +10,15 @@ brew upgrade
 brew install gradle
 brew install tomcat
 
+# Install the must-have tools
+brew install bat
+brew install ctags
+brew install httpie
+brew install wget
+brew install tree
+
 # Install useful services
+brew install elasticsearch
 brew install activemq
 brew install rabbitmq
 brew install kafka
