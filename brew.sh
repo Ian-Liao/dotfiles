@@ -16,6 +16,8 @@ brew install ctags
 brew install httpie
 brew install wget
 brew install tree
+brew install cheat
+brew install fzf	# command-line fuzzy finder
 
 # Install useful services
 brew install elasticsearch
